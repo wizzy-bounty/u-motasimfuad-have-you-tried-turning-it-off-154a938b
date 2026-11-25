@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-SUPPORT_LINE = "Good news: I found the expert—the one who told you to call me."
+SUPPORT_LINE = "I've sent the verification code to the phone you reported stolen."
 CHARACTER_LIMIT = 199
 
 
