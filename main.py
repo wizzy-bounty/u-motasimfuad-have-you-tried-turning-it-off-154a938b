@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-ENTRY = "Please hold while I escalate this to a version of me who sounds more confident."
+ENTRY = "Please restart the router once more; the first six restarts were just us getting acquainted."
 
 
 def main() -> None:
