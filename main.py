@@ -21,10 +21,14 @@ def output_path() -> Path:
     return directory / "entry.txt"
 
 
-def main() -> None:
+def write_entry() -> None:
     path = output_path()
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(checked_entry(), encoding="utf-8")
+
+
+def main() -> None:
+    write_entry()
 
 
 if __name__ == "__main__":
